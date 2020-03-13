@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+ 
+void main()
+
+    {
+        float y,cosvalue;
+        printf("Enter the value of y (in degrees) :");
+        scanf("%f", &y);
+        y = y * (3.142 / 180.0);
+        cosvalue = cos(y);
+        printf("%f",cosvalue);
+    }
