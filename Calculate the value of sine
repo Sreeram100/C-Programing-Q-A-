@@ -10,6 +10,6 @@ void main()
         scanf("%f", &x);
         x = x * (3.142 / 180.0);
         sinvalue = sin(x);
-        printf("%f",x);
+        printf("%f",sinvalue);
     }
        
