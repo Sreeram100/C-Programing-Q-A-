@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+    {
+        char operator;
+        double numa,numb;
+        printf("Enter the operation needed to be performed :");
+        scanf("%c", &operator);
+        printf("Input the two numbers a,b :");
+        scanf("%lf %lf",&numa,&numb);
+        switch(operator)
+            {
+                case '+':
+                    printf("%.1lf + %.1lf = %.1lf",numa,numb,numa + numb);
+                break;
+                case '-':
+                    printf("%.1lf-%.1lf = %.1lf",numa,numb,numa - numb);
+                break;
+                case '*':
+                    printf("%.1lf*%.1lf = %.1lf",numa,numb,numa * numb);
+                case '/':
+                    printf("%.1lf/%.1lf = %.1lf",numa,numb,numa / numb);
+                break;
+                default:
+                    printf("Error detected pls check the operator used");
+            }
+    }
