@@ -1,0 +1,14 @@
+#include<stdio.h>
+voidmain ()
+    {
+      float a, b, c, i;
+      printf ("Enter the initial principle balance :");
+      scanf ("%f", &a);
+      printf ("Enter the annual intrest rate :");
+      scanf ("%f", &b);
+      printf ("Enter the time in year :");
+      scanf ("%f", &c);
+      i = (a * b * c) / 100;
+      printf ("The final amount is :%f", i);
+
+    }
