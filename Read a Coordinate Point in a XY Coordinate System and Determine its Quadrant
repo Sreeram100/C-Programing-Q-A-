@@ -1,0 +1,17 @@
+#include <stdio.h>
+void main()
+    {
+        int x,y;
+        printf("Enter the value of x and y :");
+        scanf("%d%d",&x,&y);
+        if(x>0 && y>0)
+            printf("The point lies in the First Qudrant");
+        else if(x<0 && y>0)
+            printf("The point lies in the Second Quadrant");
+        else if(x<0 && y<0)
+            printf("The pont lies in the Third Quadrant");
+        else if(x>0 && y<0)
+            printf("The point lin=es in the Fourth Quadrant");
+        else if(x==0 && y==0)
+            printf("The point lies on the orgin");
+    }
